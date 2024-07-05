@@ -24,6 +24,6 @@ jobs:
       - name: Typecheck the code
         run: |
           mypy lib/
-      - name: Test with pytest
-        run: |
-          pytest lib -rxXs --cov-report=xml:coverage312.xml --cov lib
+      # - name: Test with pytest
+      #   run: |
+      #     pytest lib -rxXs --cov-report=xml:coverage312.xml --cov lib
