@@ -43,11 +43,11 @@ test = [
   "pytest-cov",
 ]
 dev = [
-  "test_repo[lint,test]"
+  "citibikedata[lint,test]"
 ]
 
-[project.scripts]
-plttest = "test_repo.scripts.plot_styles:main"
+# [project.scripts]
+# plttest = "test_repo.scripts.plot_styles:main"
 
 [tool.ruff]
 line-length = 100
